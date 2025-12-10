@@ -24,7 +24,7 @@ By accurately classifying "taboo" foods (like pizza, plantains, or rich pastas) 
 
 ## 🧠 The Solution: Machine Learning "Wrapper"
 
-Think of standard Type 1 Diabetes therapy (insulin delivery) as a car (it moves you from point A to B). This model serves as the car's **GPS Navigator**, ensuring people with T1D arrive safely in any condition (bad weather, high/low traffic, low fuel, etc.) by predicting potential roadblocks and suggesting the best route per situation (insulin delivery), before they leave.
+Think of standard Type 1 Diabetes therapy (insulin delivery) as a car (it moves you from point A to B). This model serves as the car's **GPS Navigator**, ensuring patients with T1D arrive safely in any condition (bad weather, high/low traffic, low fuel, etc.) by predicting potential roadblocks and suggesting the best route per situation (insulin delivery), before they leave.
 
 It uses a **Random Forest Classification** algorithm to analyze the *full* nutritional context of a meal. It predicts whether a specific combination of macros will cause a delayed spike that standard math misses, outputting a simple, actionable signal:
 
