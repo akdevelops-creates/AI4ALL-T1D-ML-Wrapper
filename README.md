@@ -10,7 +10,7 @@
 
 ## 📌 Project Overview
 
-Standard Type 1 Diabetes (T1D) dosing fails on complex meals because it myopically focuses on carbohydrates. This project shifts the paradigm by training a machine learning **"wrapper"** to analyze the critical, overlooked impact of **fat, protein, and fiber**.
+Standard Type 1 Diabetes (T1D) dosing fails on complex meals because it myopically focuses on carbohydrates. As a young man living with T1D for the past decade, I've experienced this failure countless times. This project shifts the paradigm by training a machine learning **"wrapper"** to analyze the **critical, overlooked** impact of **fat, protein, and fiber**.
 
 By accurately classifying "taboo" foods (like pizza, plantains, or rich pastas) as **High-Risk** before insulin delivery, this model serves as a predictive safety net for stable blood sugar where current treatments—whether manual injections or automated pumps—consistently fall short.
 
