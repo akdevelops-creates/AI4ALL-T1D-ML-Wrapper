@@ -24,7 +24,7 @@ By accurately classifying "taboo" foods (like pizza, plantains, or rich pastas) 
 
 ## 🧠 The Solution: Machine Learning "Wrapper"
 
-Think of standard therapy as a car (it makes the moves). This model is the **GPS Navigator**.
+Think of standard Type 1 Diabetes therapy (insulin delivery) as a car (it moves you from point A to B). This model serves as the car's **GPS Navigator**, ensuring people with T1D arrive safely in any condition (bad weather, high/low traffic, low fuel, etc.) by predicting potential roadblocks and suggesting the best route per situation (insulin delivery), before they leave.
 
 It uses a **Random Forest Classification** algorithm to analyze the *full* nutritional context of a meal. It predicts whether a specific combination of macros will cause a delayed spike that standard math misses, outputting a simple, actionable signal:
 
@@ -52,7 +52,7 @@ This project utilizes real-world longitudinal data from the **University of Manc
 
 ### 1\. Feature Engineering
 
-We engineered specific features to capture the physiological complexity of digestion:
+I engineered specific features to capture the physiological complexity of digestion:
 
   * **Fat-to-Carb Ratio (FCR):** A key indicator of the "Pizza Effect" (delayed absorption).
   * **Protein-to-Carb Ratio (PCR):** Indicator of sustained glucose rise.
@@ -72,7 +72,7 @@ We engineered specific features to capture the physiological complexity of diges
 As part of the AI4ALL Responsible AI framework, explicitly acknowledging bias is critical:
 
 1.  **Evaluation Bias (Population):** The model was trained on a small cohort of 16 individuals in Manchester, UK. The training data heavily favors Western diets.
-2.  **Cultural Agnosticism vs. Reality:** While the *approach* (using macronutrients) is culturally agnostic, the *model* may underperform on culturally significant non-Western foods (e.g., high-fiber African or Caribbean dishes) if those specific macro-combinations were absent from the UK training set.
+2.  **Cultural Agnosticism vs. Reality:** While the *approach* (using macronutrients) is culturally agnostic, the *model* may underperform on culturally significant non-Western foods (e.g., high-fiber Caribbean dishes like Jamaican bammy or roti) if those specific macro-combinations were absent from the UK training set.
 3.  **Proof of Concept:** This tool is currently a **Proof of Concept**. It is **not** a medical device and should not be used for active treatment decisions without retraining on a larger, more diverse dataset.
 
 -----
