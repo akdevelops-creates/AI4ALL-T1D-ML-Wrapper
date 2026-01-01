@@ -38,7 +38,6 @@ It uses a **Random Forest Classification** algorithm to analyze the *full* nutri
 This project utilizes real-world longitudinal data from the **University of Manchester**.
 
   * **Dataset:** [T1D-UOM – A Longitudinal Multimodal Dataset of Type 1 Diabetes (V1.0.1)](https://zenodo.org/records/15169264)
-  * Alsuhaymi, A., Bilal, A., Gasca Garcia, D., Kongdee, R., Lubasinski, N., Hood, T., Paul, N., & Harper, S. (2025). T1D-UOM – A Longitudinal Multimodal Dataset of Type 1 Diabetes (Version 0.1.0) [Computer software].
   * **Repository:** [ManchesterCSCoordinatedDiabetesStudy](https://github.com/sharpic/ManchesterCSCoordinatedDiabetesStudy)
   * **Scope:** 16 individuals, data collected Oct 2023 – Aug 2024.
   * **Key Features Used:**
@@ -46,6 +45,7 @@ This project utilizes real-world longitudinal data from the **University of Manc
       * **Physiological:** Continuous Glucose Monitor (CGM) readings, Insulin (Bolus/Basal).
 
 > **Attribution:** I gratefully acknowledge the creators of the T1D-UOM dataset for providing the granular nutritional data necessary to train this model.
+>
 > Alsuhaymi, A., Bilal, A., Gasca Garcia, D., Kongdee, R., Lubasinski, N., Hood, T., Paul, N., & Harper, S. (2025). T1D-UOM – A Longitudinal Multimodal Dataset of Type 1 Diabetes (Version 0.1.0) [Computer software]. https://github.com/sharpic/ManchesterCSCoordinatedDiabetesStudy
 
 -----
@@ -74,7 +74,7 @@ I engineered specific features to capture the physiological complexity of digest
 As part of the AI4ALL Responsible AI framework, explicitly acknowledging bias is critical:
 
 1.  **Evaluation Bias (Population):** The model was trained on a small cohort of 16 individuals in Manchester, UK. The training data heavily favors Western diets.
-2.  **Cultural Agnosticism vs. Reality:** While the *approach* (using macronutrients) is culturally agnostic, the *model* may underperform on culturally significant non-Western foods (e.g., high-fiber Caribbean dishes like Jamaican bammy or roti) if those specific macro-combinations were absent from the UK training set.
+2.  **Cultural Inclusivity vs. Reality:** While the *approach* (using macronutrients) is culturally inclusive, the *model* may underperform on culturally significant non-Western foods (e.g., high-fiber Caribbean dishes like Jamaican bammy or roti) if those specific macro-combinations were absent from the UK training set.
 3.  **Proof of Concept:** This tool is currently a **Proof of Concept**. It is **not** a medical device and should not be used for active treatment decisions without retraining on a larger, more diverse dataset.
 
 -----
