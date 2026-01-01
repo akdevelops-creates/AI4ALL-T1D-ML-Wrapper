@@ -38,6 +38,7 @@ It uses a **Random Forest Classification** algorithm to analyze the *full* nutri
 This project utilizes real-world longitudinal data from the **University of Manchester**.
 
   * **Dataset:** [T1D-UOM – A Longitudinal Multimodal Dataset of Type 1 Diabetes (V1.0.1)](https://zenodo.org/records/15169264)
+  * Alsuhaymi, A., Bilal, A., Gasca Garcia, D., Kongdee, R., Lubasinski, N., Hood, T., Paul, N., & Harper, S. (2025). T1D-UOM – A Longitudinal Multimodal Dataset of Type 1 Diabetes (Version 0.1.0) [Computer software].
   * **Repository:** [ManchesterCSCoordinatedDiabetesStudy](https://github.com/sharpic/ManchesterCSCoordinatedDiabetesStudy)
   * **Scope:** 16 individuals, data collected Oct 2023 – Aug 2024.
   * **Key Features Used:**
@@ -45,6 +46,7 @@ This project utilizes real-world longitudinal data from the **University of Manc
       * **Physiological:** Continuous Glucose Monitor (CGM) readings, Insulin (Bolus/Basal).
 
 > **Attribution:** I gratefully acknowledge the creators of the T1D-UOM dataset for providing the granular nutritional data necessary to train this model.
+> Alsuhaymi, A., Bilal, A., Gasca Garcia, D., Kongdee, R., Lubasinski, N., Hood, T., Paul, N., & Harper, S. (2025). T1D-UOM – A Longitudinal Multimodal Dataset of Type 1 Diabetes (Version 0.1.0) [Computer software]. https://github.com/sharpic/ManchesterCSCoordinatedDiabetesStudy
 
 -----
 
