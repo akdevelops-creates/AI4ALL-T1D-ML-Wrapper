@@ -1,4 +1,4 @@
-# Tackling the "Taboo": An ML Solution for Foods That Break Standard T1D Therapy
+# Beyond Carbs: An ML-Driven Solution for Foods That Break Standard T1D Therapy
 
 ### *A Predictive "Safety Net" for Type 1 Diabetes Management*
 
