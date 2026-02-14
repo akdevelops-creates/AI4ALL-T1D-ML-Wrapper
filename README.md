@@ -1,3 +1,20 @@
+<div align="center">
+  <h1>Beyond Carbs: Tackling the Taboo</h1>
+  
+  <a href="assets/poster.pdf">
+    <img src="assets/poster.png" 
+         alt="Beyond Carbs: Tackling the Taboo Research Poster" 
+         width="100%" 
+         style="border: 2px solid #C5A059; border-radius: 10px;">
+  </a>
+
+  <p>
+    <b>Independent Research by Anthony Kerr | AI4ALL Ignite Fellow</b><br>
+    <a href="assets/poster.pdf">📥 Click to view High-Resolution PDF</a>
+  </p>
+</div>
+
+---
 # Beyond Carbs: An ML-Driven Solution for Foods That Break Standard T1D Therapy
 
 ### *A Predictive "Safety Net" for Type 1 Diabetes Management*
