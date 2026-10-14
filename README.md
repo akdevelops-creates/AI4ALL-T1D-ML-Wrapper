@@ -121,8 +121,8 @@ As part of the AI4ALL Responsible AI framework, explicitly acknowledging bias is
 
 ## 🔮 Next Steps
 
-  * **Phase 2 (March 2026):** Retrain model on diverse, international data to mitigate Evaluation Bias.
-  * **Phase 3 (May 2026):** Develop a web-based MVP tool for user testing.
+  * **Phase 2:** Retrain model on diverse, international data to mitigate Evaluation Bias.
+  * **Phase 3:** Develop a web-based MVP tool for user testing.
   * **Long-term:** Integrate with open-source artificial pancreas systems (like AndroidAPS/Loop) as a plugin "safety layer."
 
 -----
